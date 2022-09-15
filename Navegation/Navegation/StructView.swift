@@ -4,12 +4,13 @@ import SwiftUI
 struct Butt : View{
     
     var text : String
+    var color : Color
     
     var body: some View{
         
         Text(text)
             .frame(width: 200, height: 40)
-            .foregroundColor(.white)
+            .foregroundColor(color)
             .background(.red)
             .cornerRadius(20)
     }

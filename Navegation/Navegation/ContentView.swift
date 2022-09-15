@@ -12,7 +12,7 @@ struct ContentView: View {
                                
                 NavigationLink(destination: BlueCircleView(),
                     label: {
-                    Butt(text:"proxima tela")
+                    Butt(text:"proxima tela", color: .red)
                     
                 })
                 
